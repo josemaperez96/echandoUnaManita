@@ -1,0 +1,47 @@
+/*.modificar-ad-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .modificar-ad-container h2 {
+    text-align: center;
+  }
+  
+  .modificar-ad-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .modificar-ad-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .modificar-ad-container input,
+  .modificar-ad-container textarea,
+  .modificar-ad-container select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modificar-ad-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .modificar-ad-container button:hover {
+    background-color: #555;
+  }
+  */

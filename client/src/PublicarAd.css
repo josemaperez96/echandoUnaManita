@@ -1,0 +1,47 @@
+.publicar-ad-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .publicar-ad-container h2 {
+    text-align: center;
+  }
+  
+  .publicar-ad-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .publicar-ad-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .publicar-ad-container input,
+  .publicar-ad-container textarea,
+  .publicar-ad-container select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .publicar-ad-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .publicar-ad-container button:hover {
+    background-color: #555;
+  }
+  

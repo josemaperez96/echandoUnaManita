@@ -1,0 +1,75 @@
+.perfil {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.profile-nav-content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-nav button {
+  padding: 10px 20px;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  flex-grow: 1;
+  transition: background-color 0.3s ease;
+}
+
+.profile-nav button:hover {
+  background-color: #555;
+}
+
+.profile-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-button,
+.message-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+}
+
+.profile-button:hover,
+.message-button:hover {
+  background-color: #0056b3;
+}

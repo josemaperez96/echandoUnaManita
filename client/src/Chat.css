@@ -1,0 +1,89 @@
+/* Chat.css */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh; /* Tamaño fijo */
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.header-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: #007bff; /* Azul del fondo de los mensajes y botón enviar */
+  border: none;
+  font-size: 1.5em; /* Asegúrate de que el tamaño de la fuente sea lo suficientemente grande */
+  cursor: pointer;
+  color: #fff; /* Blanco */
+  padding: 5px 10px;
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.profile-picture {
+  width: 60px; /* Ajusta el tamaño de la imagen */
+  height: 60px; /* Ajusta el tamaño de la imagen */
+  border-radius: 50%; /* Hace que la imagen tenga forma de círculo */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
+  cursor: pointer;
+}
+
+.messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  max-width: 80%;
+}
+
+.my-message {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.other-message {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}

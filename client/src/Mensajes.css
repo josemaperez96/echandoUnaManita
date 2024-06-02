@@ -1,0 +1,37 @@
+/* Mensajes.css */
+.mensajes-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mensajes-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mensajes-container li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mensajes-container li:hover {
+  background-color: #f1f1f1;
+}
+
+.profile-picture {
+  width: 40px; /* Ajusta el tamaño de la imagen */
+  height: 40px; /* Ajusta el tamaño de la imagen */
+  border-radius: 50%; /* Hace que la imagen tenga forma de círculo */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
+  margin-right: 10px;
+}
+
+  

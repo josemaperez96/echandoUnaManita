@@ -1,0 +1,55 @@
+/* Resenas.css */
+#resenas {
+  padding: 20px;
+  margin: 0;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+#resenas h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.write-review-button {
+  display: block;
+  margin: 20px 0;  /* Ajustar margen superior e inferior */
+  padding: 10px 20px;  /* Añadir padding */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: left;  /* Alinear texto a la izquierda */
+  width: fit-content;  /* Ajustar el ancho al contenido */
+}
+
+.write-review-button:hover {
+  background-color: #0056b3;
+}
+
+.container-res {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.res {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.res h3 {
+  margin-top: 0;
+}
+
+.res p {
+  margin: 10px 0;
+}
+

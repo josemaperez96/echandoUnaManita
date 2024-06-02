@@ -1,0 +1,23 @@
+/* ResInf.css */
+.res {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 360px;
+  width: 360px;
+  word-wrap: break-word; /* Para asegurar que el texto largo se divida correctamente */
+}
+
+.res h3 {
+  margin-top: 0;
+}
+
+.res p {
+  margin: 10px 0;
+  word-wrap: break-word; /* Para asegurar que el texto largo en los párrafos se divida correctamente */
+}
+

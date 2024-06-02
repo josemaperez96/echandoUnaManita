@@ -1,0 +1,26 @@
+.ad-details {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .ad-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ad-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .ad-details p:last-child {
+    margin-bottom: 0;
+  }
+  

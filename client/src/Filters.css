@@ -1,0 +1,25 @@
+
+   .filter-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-item {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .filter-item.selected {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+  
+  .filter-item:hover {
+    background-color: #e9ecef;
+  }
+  

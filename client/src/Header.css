@@ -1,0 +1,34 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;
+  position: relative; /* Necesario para posicionar la imagen de perfil */
+}
+
+header h1 {
+  margin: 0;
+  flex-grow: 1; /* Permite que el h1 tome el espacio disponible */
+  text-align: center;
+}
+
+.profile {
+  position: absolute; /* Posiciona la imagen de perfil en la esquina superior derecha */
+  right: 20px;
+}
+
+.profile-picture {
+  width: 60px; /* Ajusta el tamaño de la imagen */
+  height: 60px; /* Ajusta el tamaño de la imagen */
+  border-radius: 70%; /* Hace que la imagen tenga forma de círculo */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
+  cursor: pointer;
+}
+
