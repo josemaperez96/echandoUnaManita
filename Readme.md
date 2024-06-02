@@ -12,3 +12,8 @@ npm install react-scripts
 Una vez instalado todo, lanzamos el servicio con:
 
 npm start
+
+Para que los tests funcionen, los comandos son los siguientes:
+npm install --save-dev jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-react
+npm test
